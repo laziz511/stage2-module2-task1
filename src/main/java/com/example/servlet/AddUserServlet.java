@@ -16,7 +16,7 @@ public class AddUserServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // Forward the request to the "/add" page
-        req.getRequestDispatcher("/add.jsp").forward(req, resp);
+        req.getRequestDispatcher("/jsp/add.jsp").forward(req, resp);
     }
 
     @Override
