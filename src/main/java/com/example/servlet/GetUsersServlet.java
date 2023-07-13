@@ -23,6 +23,6 @@ public class GetUsersServlet extends HttpServlet {
         req.setAttribute("users", users);
 
         // Forward the request to the "/users" page
-        req.getRequestDispatcher("/users.jsp").forward(req, resp);
+        req.getRequestDispatcher("src/main/webapp/jsp/users.jsp").forward(req, resp);
     }
 }
