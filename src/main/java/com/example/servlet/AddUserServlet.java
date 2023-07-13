@@ -35,6 +35,6 @@ public class AddUserServlet extends HttpServlet {
         req.setAttribute("user", user);
 
         // Forward the request back to the "/add" page
-        req.getRequestDispatcher("/add.jsp").forward(req, resp);
+        req.getRequestDispatcher("/jsp/add.jsp").forward(req, resp);
     }
 }
